@@ -1,0 +1,9 @@
+{
+	"name": "ADFGitIntegrationR1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2af73472-a08b-4f25-be86-fb82033dc985",
+		"tenantId": "77300f22-c37d-4a77-b710-b4a88a8bcc5d"
+	}
+}
