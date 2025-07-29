@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "ADFGitIntegrationR1"
 		},
+		"Customer_LS_accountKey": {
+			"value": ""
+		},
+		"Customer_LS_properties_typeProperties_url": {
+			"value": "https://deepakdestorage.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"value": ""
 		},

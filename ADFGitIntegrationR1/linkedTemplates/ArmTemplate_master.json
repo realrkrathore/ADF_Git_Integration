@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "ADFGitIntegrationR1"
 		},
+		"Customer_LS_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'Customer_LS'"
+		},
+		"Customer_LS_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://deepakdestorage.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +41,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"Customer_LS_accountKey": {
+						"value": "[parameters('Customer_LS_accountKey')]"
+					},
+					"Customer_LS_properties_typeProperties_url": {
+						"value": "[parameters('Customer_LS_properties_typeProperties_url')]"
 					}
 				}
 			},
